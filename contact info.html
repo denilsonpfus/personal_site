@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact information</title>
+    </head>
+
+    <body>
+        <h1>Contact information:</h1>
+        <p>11180 Graceland Ln
+            <br>
+            Frisco, TX, 75033
+            <br>
+            <em><a href="tel:+19723109012">Mobile</a></em>
+            <br>
+            <em><a href="mailto:palhares@hotmail.com">E-mail</a></em>
+        </p>
+        <hr>
+        <form action="mailto:palhares@hotmail.com" method="post" enctype="text/plain">
+            <table>
+                <tr>
+                    <td>
+                        <label for="">Your name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="name" id="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Your e-mail:</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Do you want to sign up to our newsletter?</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="news_signed" id="news_signed">
+                    </td>
+                </tr>
+            </table>
+            <label for="">Message:</label>
+            <br>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea>
+            <input type="submit" value="Send">
+        </form>
+
+    </body>
+
+</html>
